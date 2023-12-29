@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/resource_new1"
+    tools:context=".homePage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:fontFamily="@font/adamina"
+        android:text="Lets Choose"
+        android:textColor="@color/WhiteSmoke"
+        android:textSize="40dp"
+        tools:ignore="HardcodedText">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="26dp"
+
+        android:fontFamily="sans-serif"
+        android:text="Good Habit"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+
+
+        android:fontFamily="@font/adamina"
+        android:text="choose your daily habits ,you can choose more than one"
+        android:textColor="@color/WhiteSmoke"
+
+        android:textSize="15sp"
+        tools:ignore="HardcodedText">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="482dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/cardview"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="413dp"
+
+            android:layout_height="97dp"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="80dp"
+                android:layout_height="83dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+
+
+                android:background="@drawable/rectangle"
+                app:cardMaxElevation="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/download" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="79dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+
+                android:background="@drawable/rectangle"
+                app:cardMaxElevation="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/download__1_" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="79dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+
+                android:background="@drawable/rectangle"
+                app:cardMaxElevation="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/download__2_" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="413dp"
+
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="79dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+
+                android:background="@drawable/rectangle"
+                app:cardMaxElevation="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/download__3_" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="79dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+
+                android:background="@drawable/rectangle"
+                app:cardMaxElevation="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/download__4_" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="79dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+
+                android:background="@drawable/rectangle"
+                app:cardMaxElevation="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/images__2_" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="413dp"
+
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="79dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+
+                android:background="@drawable/rectangle"
+                app:cardMaxElevation="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/images__1_" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="79dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+
+                android:background="@drawable/rectangle"
+                app:cardMaxElevation="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/images__3_" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="79dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+
+                android:background="@drawable/rectangle"
+                app:cardMaxElevation="40dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/download__5_" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/getbtn"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="70dp"
+            android:backgroundTint="#147D3A"
+            android:text="Get Started"
+            android:fontFamily="@font/amarante"
+            android:textColor="@color/WhiteSmoke" />
+
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+
+        android:backgroundTint="#1e5298">
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="#1e5298"
+            android:backgroundTint="#1e5298">
+
+        </FrameLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#147D3A"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:menu="@menu/menu_navigation" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

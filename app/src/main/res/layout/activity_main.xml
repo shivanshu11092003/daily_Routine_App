@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/resource_new1"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:text="WELCOME"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Create Your Account"
+        android:textColor="@color/black"
+        android:textSize="29dp"
+
+        tools:ignore="HardcodedText,SpUsage" />
+    <LinearLayout
+        android:layout_width="410dp"
+
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+
+            android:layout_height="50dp"
+            android:hint="  User Name"
+            tools:ignore="HardcodedText"
+            android:textColorHint="@color/Gray"
+            android:background="@drawable/viewbackground"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+    <EditText
+
+        android:id="@+id/editTextTextEmailAddress6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="  Enter your Email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+
+        android:background="@drawable/viewbackground"
+
+        tools:ignore="HardcodedText,PxUsage" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="    Address"
+        android:inputType="textPostalAddress"
+        android:background="@drawable/viewbackground"
+        android:minHeight="48dp"
+        tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+
+
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_marginLeft="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*Agree T&amp;C"
+        tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#147D3A"
+            android:fontFamily="@font/amarante"
+
+            android:text="Create"
+            android:textColor="@color/WhiteSmoke"
+            tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="20dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="Sign Up"
+        tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+
+</LinearLayout>
