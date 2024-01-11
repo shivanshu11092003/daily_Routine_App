@@ -28,6 +28,7 @@ class dailytrack : AppCompatActivity() {
 
         setContentView(binding.root)
 
+
         val clickbtn=findViewById<RelativeLayout>(R.id.progress_layout)
         clickbtn.setOnClickListener {
             intent=Intent(this,calorieStatus::class.java)

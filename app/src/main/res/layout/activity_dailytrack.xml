@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/WhiteSmoke"
+    android:background="@drawable/untitled_design__1_"
     android:orientation="vertical"
 
     tools:context=".dailytrack">
@@ -446,8 +446,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:background="#1e5298"
-            android:backgroundTint="#1e5298">
+            android:background="#C0D9D1"
+            android:backgroundTint="#C0D9D1">
 
         </FrameLayout>
 
@@ -455,7 +455,7 @@
             android:id="@+id/bottomNavigationView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:background="#147D3A"
+            android:background="#C0D9D1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

@@ -3,20 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@drawable/resource_new1"
-    >
+    android:background="@drawable/untitled_design__2_">
 
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="203dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="50dp"
         android:backgroundTint="@color/black"
-        android:fontFamily="@font/alfa_slab_one"
+        android:fontFamily="@font/akaya_telivigala"
         android:gravity="center"
-        android:text="WELCOME"
-        android:textColor="@color/black"
+        android:text="DailyRun"
+        android:textColor="@color/MintCream"
         android:textSize="50dp"
 
         tools:ignore="HardcodedText,SpUsage" />
@@ -26,34 +27,49 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:backgroundTint="@color/black"
-        android:fontFamily="casual"
+        android:backgroundTint="@color/Navy"
+        android:fontFamily="@font/vollkorn_sc"
         android:gravity="center"
-        android:text="Create Your Account"
-        android:textColor="@color/black"
-        android:textSize="29dp"
+        android:text="Login"
+        android:textColor="@color/MintCream"
+        android:textSize="59dp"
 
         tools:ignore="HardcodedText,SpUsage" />
-    <LinearLayout
-        android:layout_width="410dp"
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        app:cardBackgroundColor="@android:color/transparent"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="0dp"
+
+        >
+        <LinearLayout
+        android:layout_width="match_parent"
 
         android:layout_height="wrap_content"
         android:orientation="vertical">
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
+
         android:padding="15dp"
         >
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="342dp"
 
-            android:layout_height="50dp"
-            android:hint="  User Name"
-            tools:ignore="HardcodedText"
-            android:textColorHint="@color/Gray"
-            android:background="@drawable/viewbackground"/>
+                    android:layout_height="47dp"
+
+                    android:layout_gravity="center"
+                    android:background="@drawable/viewbackground"
+                    android:hint="  User Name"
+                    android:textColorHint="@color/Gray"
+                    tools:ignore="HardcodedText" />
 
     </com.google.android.material.textfield.TextInputLayout>
         <LinearLayout
@@ -61,21 +77,22 @@
             android:layout_height="wrap_content"
             android:padding="15dp">
 
-    <EditText
+            <EditText
 
-        android:id="@+id/editTextTextEmailAddress6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:ems="10"
-        android:hint="  Enter your Email"
-        android:importantForAutofill="no"
-        android:inputType="textEmailAddress"
-        android:minHeight="48dp"
+                android:id="@+id/editTextTextEmailAddress6"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/viewbackground"
+                android:ems="10"
+                android:hint="  Enter your Email"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress"
 
-        android:background="@drawable/viewbackground"
+                android:minHeight="48dp"
 
-        tools:ignore="HardcodedText,PxUsage" />
+                tools:ignore="HardcodedText,PxUsage" />
     </LinearLayout>
 
     <LinearLayout android:layout_width="match_parent"
@@ -83,45 +100,46 @@
         android:padding="15dp">
 
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:ems="10"
-        android:hint="    Address"
-        android:inputType="textPostalAddress"
-        android:background="@drawable/viewbackground"
-        android:minHeight="48dp"
-        tools:ignore="HardcodedText" />
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/viewbackground"
+            android:ems="10"
+            android:hint="    Address"
+            android:inputType="textPostalAddress"
+            android:minHeight="48dp"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 
 
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="335dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="90dp"
+                android:buttonTint="#C1D9D1"
+                android:text="*Agree T&amp;C"
+                tools:ignore="HardcodedText" />
 
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#020202"
+                android:fontFamily="@font/amarante"
 
+                android:text="Create"
+                android:textColor="@color/WhiteSmoke"
+                tools:ignore="HardcodedText" />
 
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_marginLeft="28dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="*Agree T&amp;C"
-        tools:ignore="HardcodedText" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="30dp"
-            android:backgroundTint="#147D3A"
-            android:fontFamily="@font/amarante"
-
-            android:text="Create"
-            android:textColor="@color/WhiteSmoke"
-            tools:ignore="HardcodedText" />
-
-    <TextView
+            <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_gravity="center"
@@ -131,6 +149,7 @@
         android:text="Sign Up"
         tools:ignore="HardcodedText" />
     </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
 
 </LinearLayout>

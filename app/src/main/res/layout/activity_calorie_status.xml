@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".calorieStatus"
-    android:background="@color/White"
+    android:background="@drawable/untitled_design__1_"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,6 +15,7 @@
 
         <ImageView
             android:layout_width="44dp"
+            android:id="@+id/back"
             android:layout_height="match_parent"
             android:src="@drawable/baseline_arrow_back_ios_24" />
 
@@ -23,6 +24,7 @@
             android:layout_height="50dp"
             android:fontFamily="sans-serif-medium"
             android:gravity="center"
+            android:textColor="@color/black"
             android:text="Calorie Stats"
             android:textSize="20dp" />
 
@@ -40,17 +42,20 @@
         android:layout_width="match_parent"
         android:layout_height="20dp"
         android:text="Total Burn"
+        android:textColor="@color/black"
         android:gravity="center"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:gravity="center"
         android:text="1230"
         android:textSize="30dp" />
     <TextView
         android:layout_width="80dp"
         android:layout_gravity="center"
+        android:textColor="@color/black"
         android:layout_height="35dp"
         android:background="@drawable/rectangle"
         android:backgroundTint="@color/LightGreen"
@@ -70,7 +75,7 @@
             android:id="@+id/button5"
             android:layout_width="206dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/WhiteSmoke"
+            android:backgroundTint="@color/white"
             android:text="Day"
             android:textColor="@color/Black"
 
@@ -81,7 +86,7 @@
             android:id="@+id/button4"
             android:layout_width="203dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/WhiteSmoke"
+            android:backgroundTint="@color/White"
             android:text="Week"
             android:textColor="@color/Black"
 
@@ -102,12 +107,14 @@
             android:layout_width="wrap_content"
 
             android:layout_height="match_parent"
+            android:textColor="@color/black"
             android:text="Today Challenge"
             android:textSize="17dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:layout_marginLeft="230dp"
             android:text="See All" />
 
@@ -128,6 +135,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="@color/black"
             android:layout_marginLeft="20dp"
             android:text="YOGA \n 07:00 for 7 Km" />
         <ImageView
@@ -152,6 +160,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:layout_marginLeft="90dp"
+
                 android:text="200 cells"
                 android:textColor="@color/black" />
 
@@ -175,6 +184,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
             android:text="Runing \n 07:00 for 7 Km" />
         <ProgressBar
             android:id="@+id/progress_bar2"
@@ -211,19 +221,20 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:backgroundTint="#1e5298"
+
         android:layout_marginTop="5dp">
 
         <FrameLayout
             android:id="@+id/frame_layout"
             android:layout_width="0dp"
             android:layout_height="0dp"
+
             app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:background="#1e5298"
-            android:backgroundTint="#1e5298">
+            android:background="#C0D9D1"
+            android:backgroundTint="#C0D9D1">
 
         </FrameLayout>
 
@@ -231,7 +242,10 @@
             android:id="@+id/bottomNavigationView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:background="#147D3A"
+            android:background="#C0D9D1"
+            app:itemRippleColor="#C0D9D1"
+            app:itemIconTint="@color/item_color"
+
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
